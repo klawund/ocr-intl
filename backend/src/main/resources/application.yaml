@@ -1,3 +1,10 @@
 spring:
   application:
     name: ocr-intl
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+ocr-intl:
+  storage:
+    upload-dir: uploads

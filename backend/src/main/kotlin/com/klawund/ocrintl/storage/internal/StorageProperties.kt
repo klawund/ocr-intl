@@ -4,4 +4,4 @@ import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.context.properties.bind.ConstructorBinding
 
 @ConfigurationProperties("ocr-intl.storage")
-data class StorageProperties @ConstructorBinding constructor(val uploadDir: String)
+data class StorageProperties @ConstructorBinding constructor(val baseDir: String)

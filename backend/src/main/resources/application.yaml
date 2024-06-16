@@ -7,4 +7,4 @@ spring:
       max-request-size: 2MB
 ocr-intl:
   storage:
-    upload-dir: uploads
+    base-dir: uploads
